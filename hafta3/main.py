@@ -19,4 +19,4 @@ elif(faturaTipi=='g'):
     fatura=(faturaTutari*108/100)
     print("Fatura Tutarı= : ",fatura," TL ")
 else:
-    print("Yanlış veri grişi")
+    print("Yanlış veri grişi","Program bitti")
