@@ -20,10 +20,3 @@ elif(faturaTipi=='g'):
     print("Fatura Tutarı= : ",fatura," TL ")
 else:
     print("Yanlış veri grişi")
-
-
-
-
-
-
-
