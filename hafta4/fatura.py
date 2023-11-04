@@ -17,24 +17,27 @@ while tekrar == 'E':
     kampanyaInternet = 'E'
     print("FATURA HESAPLAMA UYGULAMASINA HOŞGELDİNİZ")
     telefonNumarasi = int(input(print("\n Telefon numarasını başında 0 olmadan ve boşluk kullanmadan Giriniz")))
-    kampanyaSms = str(input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır SMS Paketi Varmı (E/H)")))
+
+    kampanyaSms = str(input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır SMS Paketi Varmı (E/H)"))).upper()
     if kampanyaSms == 'E':
         kampanyaSmsTipi = int(input(print(""" Lütfen SMS Paketini Seciniz 
         1. 100  SMS Bizden
         2. 500  SMS Bizden
         3. 1000 SMS Bizden.""")))
-    kampanyaKonusma = str(input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Konuşma Paketi Varmı (E/H)")))
+    kampanyaKonusma = str(
+        input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Konuşma Paketi Varmı (E/H)"))).upper()
     if kampanyaKonusma == 'E':
         kampanyaKonusmaTipi = int(input(print(""" Lütfen Konuşma Paketini Seciniz 
         1. 1000 dk Bizden
         2. 2000 dk Bizden
         3. 3000 dk Bizden.""")))
-    kampanyaInternet = str(input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Internet Paketi Varmı (E/H)")))
+    kampanyaInternet = str(
+        input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Internet Paketi Varmı (E/H)"))).upper()
     if kampanyaInternet == 'E':
-        kampanyaInternetTipi = input(print(""" Lütfen İnternet Paketini Seciniz 
+        kampanyaInternetTipi = int(input(print(""" Lütfen İnternet Paketini Seciniz 
          1. 1  GB Bizden
          2. 5  GB Bizden
-         3. 10 GB Bizden."""))
+         3. 10 GB Bizden.""")))
     smsKullanimi = int(
         input(print(telefonNumarasi, "Fatura dönemi içerisinde kullanılan SMS miktarını giriniz.(adet)")))
     konusmaKullanimi = int(
@@ -93,18 +96,13 @@ while tekrar == 'E':
             faturaInternet = float(((internetKullanimi - 1000) * 1.5) + 50)
         else:
             faturaInternet = 50
-    else:
-        faturaInternet = float(internetKullanimi * 1.5)
-
-    if kampanyaInternetTipi == 2:
+    elif kampanyaInternetTipi == 2:
         if internetKullanimi >= 5000:
             faturaInternet = float(((internetKullanimi - 5000) * 1.5) + 60)
         else:
             faturaInternet = 60
-    else:
-        faturaInternet = float(internetKullanimi * 1.5)
 
-    if kampanyaInternetTipi == 3:
+    elif kampanyaInternetTipi == 3:
         if internetKullanimi >= 10000:
             faturaInternet = float(((internetKullanimi - 10000) * 1.5) + 70)
         else:
@@ -114,6 +112,6 @@ while tekrar == 'E':
     print(faturaInternet, "\n", faturaKonusma, "\n", faturaSms, "\n")
     fatura = float(faturaInternet + faturaKonusma + faturaSms)
     otv = int(input("OTV oranını giriniz (%)"))
-    toplamFatura = float(fatura * ((otv + 100) / 100))
+    toplamFatura = int(fatura * ((otv + 100) / 100))
     print(telefonNumarasi, "Numaralı Telefona Ait Fatura = ", toplamFatura, " TL dir")
-    tekrar = str(input("Yeni Fatura Hesaplamak İstiyormusunuz (E/H)"))
+    tekrar = str(input("Yeni Fatura Hesaplamak İstiyormusunuz (E/H)")).upper()
