@@ -1,0 +1,22 @@
+sozluk1={"sifir":0,"bir":1,"iki":2,"uc":3}
+print(sozluk1,type(sozluk1))
+print(sozluk1["bir"])
+print(sozluk1["uc"])
+#print(sozluk1["dort"])
+print("anahtarları:",sozluk1.keys())
+print("değerleri",sozluk1.values())
+print("elemanları",sozluk1.items())
+a={"sayilar":{"sifir":0,"bir":1,"iki":2,"uc":3},"meyveler":"elma"}
+a={"sayilar":{"sifir":0,"bir":1,"iki":2,"uc":3},"meyveler":"elma"}
+print(a["sayilar"])
+print(a["sayilar"]["iki"])
+print(a["meyveler"])
+b={"sayilar":[1,2,3,4,5],"aylar":("ocak","şubat","mart"),"adres":"Okan Üniversitesi"}
+print(b.keys())
+print(b["sayilar"],type(b["sayilar"]))
+print(b["aylar"],type(b["aylar"]))
+print(b["adres"],type(b["adres"]))
+print(b["sayilar"][3])
+print(b["aylar"][2])
+sozluk1=dict()
+print(sozluk1,type(sozluk1))
