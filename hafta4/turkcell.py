@@ -22,7 +22,8 @@ while True:
     7-Toplam Yaş Ortalaması
     8-Erkelerin Yaş Ortalaması
     9-Kadınların Yaş Ortalaması
-    10-Çıkış"""))
+    10- En düşük maaş
+    11-Çıkış"""))
     if menu == 1:
         for i in range(kisi):
             print("-" * 50)
@@ -33,7 +34,7 @@ while True:
         toplam = 0
         for i in range(kisi):
             toplam = toplam+maas[i]
-            print("Maas Ortalama: ", (toplam/kisi))
+        print("Maas Ortalama: ", (toplam/kisi))
     elif menu == 3:
         toplam = 0
         sayac = 0
@@ -46,7 +47,7 @@ while True:
         toplam = 0
         sayac = 0
         for i in range(kisi):
-            if cinsiyet[i] == 'K' or cinsiyet[i] == 'k':
+            if cinsiyet[i] == 'B' or cinsiyet[i] == 'b':
                 toplam = toplam+maas[i]
                 sayac = sayac+1
         print("Kadınların maaş ortalaması: ", (toplam/sayac))
@@ -59,7 +60,7 @@ while True:
     elif menu == 6:
         eky = yas[0]
         for i in range(kisi):
-            if yas[i] > eky:
+            if yas[i] < eky:
                 eky = yas[i]
         print("En küçük yaş: ", eky)
     elif menu == 7:
@@ -79,11 +80,21 @@ while True:
         toplam = 0
         sayac = 0
         for i in range(kisi):
-            if cinsiyet[i] == 'K' or cinsiyet[i] == 'k':
+            if cinsiyet[i] == 'B' or cinsiyet[i] == 'b':
                 toplam = toplam+yas[i]
                 sayac = sayac+1
         print("Kadınların yaş ortalaması: ", (toplam/sayac))
     elif menu == 10:
+        ekm=maas[0]
+        adekm=ad[0]
+        for i in range(kisi):
+            if ekm<maas[i]:
+                ekm=maas[i]
+                adekm=ad[i]
+        print("en küçük maaş",adekm)
+
+
+    elif menu == 11:
         print("Program Bitti")
     else:
         exit(0)
