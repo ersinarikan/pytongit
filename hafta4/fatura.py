@@ -12,38 +12,36 @@ while tekrar == 'E':
     kampanyaSmsTipi = 0
     kampanyaKonusmaTipi = 0
     kampanyaInternetTipi = 0
-    kampanyaSms = 'E'
     kampanyaKonusma = 'E'
     kampanyaInternet = 'E'
+    kampanyaSms = 'E'
+
     print("FATURA HESAPLAMA UYGULAMASINA HOŞGELDİNİZ")
     telefonNumarasi = int(input("\n Telefon numarasını başında 0 olmadan ve boşluk kullanmadan Giriniz"))
 
-    kampanyaSms = str(input(telefonNumarasi, " Numaralı Telefona Tanımlı Bır SMS Paketi Varmı (E/H)")).upper()
+    kampanyaSms = str(input(print(telefonNumarasi, "Numaralı Telefona Tanımlı Bır SMS Paketi Varmı (E/H)"))).upper()
     if kampanyaSms == 'E':
         kampanyaSmsTipi = int(input(""" Lütfen SMS Paketini Seciniz 
         1. 100  SMS Bizden
         2. 500  SMS Bizden
         3. 1000 SMS Bizden."""))
-    kampanyaKonusma = str(
-        input(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Konuşma Paketi Varmı (E/H)")).upper()
+
+    kampanyaKonusma = str(input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Konuşma Paketi Varmı (E/H)"))).upper()
     if kampanyaKonusma == 'E':
         kampanyaKonusmaTipi = int(input(""" Lütfen Konuşma Paketini Seciniz 
         1. 1000 dk Bizden
         2. 2000 dk Bizden
         3. 3000 dk Bizden."""))
-    kampanyaInternet = str(
-        input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Internet Paketi Varmı (E/H)"))).upper()
+
+    kampanyaInternet = str(input(print(telefonNumarasi, " Numaralı Telefona Tanımlı Bır Internet Paketi Varmı (E/H)"))).upper()
     if kampanyaInternet == 'E':
         kampanyaInternetTipi = int(input(print(""" Lütfen İnternet Paketini Seciniz 
          1. 1  GB Bizden
          2. 5  GB Bizden
          3. 10 GB Bizden.""")))
-    smsKullanimi = int(
-        input(telefonNumarasi, "Fatura dönemi içerisinde kullanılan SMS miktarını giriniz.(adet)"))
-    konusmaKullanimi = int(
-        input(telefonNumarasi, "Fatura dönemi içerisinde kullanılan Konuşma miktarını giriniz.(dk)"))
-    internetKullanimi = int(
-        input(telefonNumarasi, "Fatura dönemi içerisinde kullanılan Internet miktarını giriniz.(MB)"))
+    smsKullanimi = int(input(print(telefonNumarasi, "Fatura dönemi içerisinde kullanılan SMS miktarını giriniz.(adet)")))
+    konusmaKullanimi = int(input(print(telefonNumarasi, "Fatura dönemi içerisinde kullanılan Konuşma miktarını giriniz.(dk)")))
+    internetKullanimi = int(input(print(telefonNumarasi, "Fatura dönemi içerisinde kullanılan Internet miktarını giriniz.(MB)")))
 
     # SMS Hesaplama
     if kampanyaSmsTipi == 1:
@@ -109,7 +107,7 @@ while tekrar == 'E':
             faturaInternet = 70
     else:
         faturaInternet = float(internetKullanimi * 1.5)
-    print(faturaInternet, "\n", faturaKonusma, "\n", faturaSms, "\n")
+    print( faturaInternet, "\n", faturaKonusma, "\n", faturaSms, "\n")
     fatura = float(faturaInternet + faturaKonusma + faturaSms)
     otv = int(input("OTV oranını giriniz (%)"))
     toplamFatura = int(fatura * ((otv + 100) / 100))
