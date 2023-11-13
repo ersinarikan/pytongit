@@ -1,0 +1,41 @@
+
+ad=list()
+vn=[]
+fn=[]
+bn=[]
+kisi=int(input("Kişi sayısı giriniz : "))
+for i in range(kisi):
+    ad.append(input("isim giriniz"))
+    vnGecici=int(input("Vize notu giriniz : "))
+    vn.append(vnGecici)
+    fnGecici = int(input("Final notu giriniz : "))
+    fn.append(fnGecici)
+    bn.append((vnGecici*0.4+fnGecici*0.6))
+while True:
+    menu=int(input("""
+    1-Listeleme
+    2-İsim Arama
+    3-Vize Final Başarı Otalama
+    4-Tümünün en büyüğü
+    5-Tümünün en küçüğü
+    6-En büyük başarı notu kime ait.
+    7-Çıkış"""))
+
+if menu==1:
+    pass
+elif menu==2:
+    pass
+elif menu==3:
+    pass
+elif menu==4:
+    pass
+elif menu==5:
+    pass
+elif menu==6:
+    pass
+elif menu==7:
+    print("Program bitti")
+    exit(0)
+else:
+    print("yanlış menü değeri")
+

@@ -10,13 +10,57 @@ for i in range(kisi):
     fnGecici = int(input("Final notu giriniz : "))
     fn.append(fnGecici)
     bn.append((vnGecici*0.4+fnGecici*0.6))
-
 def listele(ad,vn,fn,bn):
     for i in range(len(ad)):
-    print("isim",ad[i])
-    print("Vize notu: ",vn[i])
-    print("Final notu",fn[i])
-    print("Başarı notu: "bn[i])
+        print("isim : ", ad[i])
+        print("vize notu :" ,vn[i])
+        print("final notu :" , fn[i])
+        print("başarı notu : " ,bn[i])
+        print("-"*40)
+
+
+def arama(aranacakAd, ad, bn, kisi):
+    for i in range(len(ad)):
+        if aranacakAd==(ad[i]):
+            print("İsim", ad[i])
+            print("Vize Notu : ", vn[i])
+            print("Final Notu : ", fn[i])
+            print("Başarı Notu : ", bn[i])
+            print("-"*40)
+
+
+def ortalama(notlar):
+    toplam=0
+    for sayi in notlar:
+        toplam+=sayi
+    return (toplam/len(notlar))
+
+
+def enb(notlar):
+    enBuyuk=notlar[0]
+    for i in range(len(notlar)):
+        if notlar[i]>enBuyuk:
+            enBuyuk=notlar[i]
+    return enBuyuk
+
+
+def enk(notlar):
+    enKucuk=notlar[0]
+    for veri in (notlar):
+        if (veri<enKucuk):
+            enKucuk=veri
+    return enKucuk
+
+
+def enBuyukBasari(ad, vn, fn, bn):
+    enbBasari=enb(bn)
+    for i in range(len(ad)):
+        if bn[i]==enbBasari:
+            print("İsim", ad[i])
+            print("Vize Notu : ", vn[i])
+            print("Final Notu : ", fn[i])
+            print("Başarı Notu : ", bn[i])
+
 
 while True:
     menu=int(input("""
@@ -30,15 +74,25 @@ while True:
     if menu==1:
         listele(ad,vn,fn,bn)
     elif menu==2:
-        aranacakAd=input("Aranacak ismi giriniz: ")
+       aranacakAd=("Aranacak ismi giriniz :")
+       arama(aranacakAd,ad,bn,kisi)
     elif menu==3:
-        pass
+        print("Vize Not Ortalaması : ", ortalama(vn))
+        print("Final Not Ortalaması : ", ortalama(fn))
+        print("Başarı Not Ortalaması : ", ortalama(bn))
+
     elif menu==4:
-        pass
+        print("Vize en büyük: ", enb(vn))
+        print("Final en büyük: ", enb(fn))
+        print("Başarı en büyük: ", enb(bn))
     elif menu==5:
-        pass
+        print("Vize en küçük: ", enk(vn))
+        print("Final en küçük: ", enk(fn))
+        print("Başarı en küçü: ", enk(bn))
     elif menu==6:
-        pass
+        enBuyukBasari(ad,vn,fn,bn)
+        enbBasari=enb(bn)
+        print("en büyük",enbBasari)
     elif menu==7:
         print("Program bitti")
         exit(0)
