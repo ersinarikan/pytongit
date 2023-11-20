@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7c5d24b-690d-410d-ac4f-86fa88e01118" name="Changes" comment="te3">
-      <change afterPath="$PROJECT_DIR$/hafta4/ogrenci2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hafta4/ogrenci.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta4/ogrenci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hafta5/metot.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta5/metot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hafta5/ogrencimetot.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta5/ogrencimetot.py" afterDir="false" />
+    <list default="true" id="d1013a9b-a1f8-4dde-ab6f-ff1bbb97cfd5" name="Changes" comment="y3">
+      <change afterPath="$PROJECT_DIR$/hafta6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hafta6/kutuphane.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,36 +16,126 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ersinarikan&quot;
+  }
 }</component>
-  <component name="ProjectId" id="2XN01tBUo29INI1UQIycLRqGnXQ" />
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9deef15e-96ab-4d8c-843a-5ab67657a414" />
+        <option name="url" value="https://github.com/ersinarikan/pytongit.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2XgCG2S2mPzDuhPonOpSaJGwEls" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowCommit.ShowToolbar&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TRS/Desktop/pytongit/pytongit/hafta4&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TRS\Desktop\pytongit\pytongit\hafta4" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="konusmaKullanimi=0" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.kutuphane">
+    <configuration name="alistirmalar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytongit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta4/alistirmalar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fatura" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytongit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta4/fatura.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kutuphane" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytongit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta6/kutuphane.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ogrencimetot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pytongit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,98 +157,110 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="turkcell" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytongit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta4/turkcell.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kutuphane" />
         <item itemvalue="Python.ogrencimetot" />
+        <item itemvalue="Python.turkcell" />
+        <item itemvalue="Python.fatura" />
+        <item itemvalue="Python.alistirmalar" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d7c5d24b-690d-410d-ac4f-86fa88e01118" name="Changes" comment="" />
-      <created>1698454018692</created>
+      <changelist id="d1013a9b-a1f8-4dde-ab6f-ff1bbb97cfd5" name="Changes" comment="" />
+      <created>1699041237805</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698454018692</updated>
+      <updated>1699041237805</updated>
     </task>
-    <task id="LOCAL-00001" summary="te">
+    <task id="LOCAL-00001" summary="y">
       <option name="closed" value="true" />
-      <created>1698454233641</created>
+      <created>1699068993394</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1698454233641</updated>
+      <updated>1699068993394</updated>
     </task>
-    <task id="LOCAL-00002" summary="te">
+    <task id="LOCAL-00002" summary="y">
       <option name="closed" value="true" />
-      <created>1698458979133</created>
+      <created>1699072140415</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1698458979133</updated>
+      <updated>1699072140415</updated>
     </task>
-    <task id="LOCAL-00003" summary="te">
+    <task id="LOCAL-00003" summary="y">
       <option name="closed" value="true" />
-      <created>1699279563489</created>
+      <created>1699298940851</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1699279563489</updated>
+      <updated>1699298940851</updated>
     </task>
-    <task id="LOCAL-00004" summary="te2">
+    <task id="LOCAL-00004" summary="y">
       <option name="closed" value="true" />
-      <created>1699289432878</created>
+      <created>1699300257157</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1699289432878</updated>
+      <updated>1699300257157</updated>
     </task>
-    <task id="LOCAL-00005" summary="te2">
+    <task id="LOCAL-00005" summary="y2">
       <option name="closed" value="true" />
-      <created>1699289591888</created>
+      <created>1699302039093</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1699289591888</updated>
+      <updated>1699302039093</updated>
     </task>
-    <task id="LOCAL-00006" summary="te3">
+    <task id="LOCAL-00006" summary="y2">
       <option name="closed" value="true" />
-      <created>1699293606756</created>
+      <created>1699302394874</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1699293606756</updated>
+      <updated>1699302394874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="y3">
+      <option name="closed" value="true" />
+      <created>1699303253259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699303253259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="te" />
-    <MESSAGE value="te2" />
-    <MESSAGE value="te3" />
-    <option name="LAST_COMMIT_MESSAGE" value="te3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/hafta4/turkcell.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="y" />
+    <MESSAGE value="y2" />
+    <MESSAGE value="y3" />
+    <option name="LAST_COMMIT_MESSAGE" value="y3" />
   </component>
 </project>
