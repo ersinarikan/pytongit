@@ -1,16 +1,16 @@
 tekrar = 'E'
 
 
-def liste(yazarIsmi, kitapIsmi, sayfaSayisi, Cinsiyeti):
-    if Cinsiyeti == 'e':
-        Cinsiyeti = "ERKEK"
+def liste(yazarismi, kitapismi, sayfasayisi, cinsiyeti):
+    if cinsiyeti == 'e':
+        cinsiyeti = "ERKEK"
     else:
-        Cinsiyeti = "KADIN"
+        cinsiyeti = "KADIN"
     print("-" * 50)
-    print("Yazar İsmi: ", yazarIsmi.upper())
-    print("Kitap İsmi: ", kitapIsmi.upper())
-    print("Sayfa Sayısı: ", sayfaSayisi)
-    print("Cinsiyet: ", Cinsiyeti)
+    print("Yazar İsmi: ", yazarismi.upper())
+    print("Kitap İsmi: ", kitapismi.upper())
+    print("Sayfa Sayısı: ", sayfasayisi)
+    print("Cinsiyet: ", cinsiyeti)
 
 
 def listele(ad, kitap, sayfa, cinsiyet):
@@ -55,7 +55,7 @@ def encok(sayfa,ad,cinsiyet):
                 cinsiyet = "ERKEK"
             else:
                 cinsiyet = "KADIN"
-    print("En Çok Sayfası olan kitap", ecs, "sayfa ile", yazari.upper(), "tarafından yazılmıstır ve cinsiyeti" ,cinsiyet, "dir" )
+    print("En Çok Sayfası olan kitap", ecs, "sayfa ile", yazari.upper(), "tarafından yazılmıstır ve cinsiyeti", cinsiyet, "dir" )
 
 
 def enaz(sayfa, ad, cinsiyet):
@@ -137,6 +137,7 @@ while tekrar == 'E':
         ErkekKadin(cinsiyet)
     elif sec == 9:
         toplamsayfa=0
+        i=0
         for i in range(len(ad)):
             toplamsayfa=toplamsayfa+sayfa[i]
             print(i)
