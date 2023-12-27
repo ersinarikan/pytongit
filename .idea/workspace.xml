@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1013a9b-a1f8-4dde-ab6f-ff1bbb97cfd5" name="Changes" comment="y3">
-      <change afterPath="$PROJECT_DIR$/hafta1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta7/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/Toptanci.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/depo.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/sqltptndeneme.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/test.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/toptanciSQL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/toptancisqlfonk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hafta8/tptn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pytongit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytongit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_12_2023_21_30__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_12_2023_21_30__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hafta7/toptanci.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta7/toptanci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hafta8/Toptanci.db" beforeDir="false" afterPath="$PROJECT_DIR$/hafta8/Toptanci.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hafta8/toptancisqlfonk.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta8/toptancisqlfonk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +202,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
       </set>
     </attachedChunks>
   </component>
@@ -286,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699303253259</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="y3">
+      <option name="closed" value="true" />
+      <created>1703521615952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703521615952</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
