@@ -10,15 +10,15 @@ while True:
               4. Çıkış"""))
     if sec == 1:
         giris = int(input(""" 
-                1. Mercimek
-                2. Pirinc
-                3. Nohut
-                4. Fasulye"""))
+              1. Mercimek
+              2. Pirinc
+              3. Nohut
+              4. Fasulye"""))
         if giris == 1:
             giriskgMr = int(input("""
-                1. 10 KG
-                2. 50 KG
-                3. 100 KG"""))
+            1. 10 KG
+            2. 50 KG
+            3. 100 KG"""))
             if giriskgMr == 1:
                 bakliyat_ismi = "Mercimek"
                 kg = 10
@@ -120,15 +120,15 @@ while True:
             print("Yanlış işlem seçtiniz")
     elif sec == 2:
         giris = int(input(""" 
-                   1. Mercimek
-                   2. Pirinc
-                   3. Nohut
-                   4. Fasulye"""))
+            1. Mercimek
+            2. Pirinc
+            3. Nohut
+            4. Fasulye"""))
         if giris == 1:
             giriskgM = int(input("""
-                   1. 10 KG
-                   2. 50 KG
-                   3. 100 KG"""))
+            1. 10 KG
+            2. 50 KG
+            3. 100 KG"""))
             if giriskgM == 1:
                 bakliyat_ismi = "Mercimek"
                 kg = -10
@@ -151,9 +151,9 @@ while True:
                 print("Yanlış seçim yaptınız")
         if giris == 2:
             giriskgP = int(input("""
-               1. 10 KG
-               2. 50 KG
-               3. 100 KG"""))
+            1. 10 KG
+            2. 50 KG
+            3. 100 KG"""))
             if giriskgP == 1:
                 bakliyat_ismi = "Pirinç"
                 kg = -10
@@ -176,9 +176,9 @@ while True:
                 print("Yanlış seçim yaptınız")
         if giris == 3:
             giriskgN = int(input("""
-               1. 10 KG
-               2. 50 KG
-               3. 100 KG"""))
+            1. 10 KG
+            2. 50 KG
+            3. 100 KG"""))
             if giriskgN == 1:
                 bakliyat_ismi = "Nohut"
                 kg = -10
@@ -201,9 +201,9 @@ while True:
                 print("Yanlış seçim yaptınız")
         if giris == 4:
             giriskgF = int(input("""
-               1. 10 KG
-               2. 50 KG
-               3. 100 KG"""))
+            1. 10 KG
+            2. 50 KG
+            3. 100 KG"""))
             if giriskgF == 1:
                 bakliyat_ismi = "Fasulye"
                 kg = -10
@@ -226,14 +226,13 @@ while True:
                 print("Yanlış seçim yaptınız")
     elif sec == 3:
         rapor = int(input("""
-           1. Depolara Göre Rapor
-           2. Bakliyat Raporu
-           3. Çıkış"""))
+            1. Toplam Depo Raporu
+            2. Bakliyat Raporu
+            3. Çıkış"""))
         if rapor == 1:
-            toptancisqlfonk.sql.rapor1()
-
+            db.rapor1()
         elif rapor == 2:
-            pass  # tüm depolarda ne kadar ürün olduğunu göster
+            db.rapor2()
 
         else:
             print("Yanlış Seçim Yaptınız")

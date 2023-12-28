@@ -1,5 +1,4 @@
 import sqlite3
-
 class sql:
     def __init__(self):
         self.conn = sqlite3.connect("Toptanci.db")
@@ -7,7 +6,7 @@ class sql:
 
     def create(self):
         self.cur.execute("CREATE TABLE IF NOT EXISTS depo("
-                        "id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                        "id INTEGER PRIMARY KEY AUTOINCREMENT,"
                         "bakliyat_ismi TEXT,"
                         "depo_numarasi INTEGER,"
                         "adet INTEGER,"
@@ -20,22 +19,35 @@ class sql:
         self.conn.commit()
 
     def rapor1(self):
-        # print(self.cur.execute("SELECT SUM(kg) FROM depo"))
-        # self.conn.commit()
-        # self.cur.execute("SELECT SUM(kg) FROM depo")
-        #kilogram = self.cur.execute("SELECT SUM(kg) FROM depo")
-        kilogram = self.cur.execute("SELECT SUM(kg) FROM depo WHERE bakliyat_ismi LIKE %Mercimek%")
-        print("Depoda bulunan toplam Mercimek",kilogram)
-        self.conn.commit()
 
-
-        # self.cur.execute("SELECT * FROM depo")
-        # veriler = self.cur.fetchall()
-        # for veri in veriler:
-        #     print("Bakliyat İsmi : ", veri[1])
-        #     print("Depo Numarası : ", veri[2])
-        #     print("Adet : ", veri[3])
-        #     print("KG : ", veri[4])
-        #     print("Toplam : ", veri[3]+veri[4])
-
-
+        self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Mercimek",))
+        kilogram = self.cur.fetchall()
+        print("-" * 50)
+        print("Depolarda bulunan toplam Mercimek",kilogram[0][0], "KG dır.")
+        self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Nohut",))
+        kilogram = self.cur.fetchall()
+        print("Depolarda bulunan toplam Nohut",kilogram[0][0], "KG dır.")
+        self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Fasulye",))
+        kilogram = self.cur.fetchall()
+        print("Depolarda bulunan toplam Fasulye",kilogram[0][0], "KG dır.")
+        self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Pirinç",))
+        kilogram = self.cur.fetchall()
+        print("Depolarda bulunan toplam Pirinç",kilogram[0][0], "KG dır.")
+        print("-"*50)
+    def rapor2(self):
+        self.cur.execute("SELECT SUM(kg) FROM depo WHERE bakliyat_ismi = ? AND depo_numarasi = ?", ("Mercimek", 1,))
+        kilogram = self.cur.fetchall()
+        self.cur.execute("SELECT SUM(adet) FROM depo WHERE bakliyat_ismi = ? AND depo_numarasi = ?", ("Mercimek", 1,))
+        adet=self.cur.fetchall()
+        print("-" * 50)
+        print("1 Numaralı Depoda Mevcut ", adet[0][0], " Kutu Mercimek Toplam",kilogram[0][0], "KG dır.")
+        # self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Nohut",))
+        # kilogram = self.cur.fetchall()
+        # print("Depolarda bulunan toplam Nohut",kilogram[0][0], "KG dır.")
+        # self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Fasulye",))
+        # kilogram = self.cur.fetchall()
+        # print("Depolarda bulunan toplam Fasulye",kilogram[0][0], "KG dır.")
+        # self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Pirinç",))
+        # kilogram = self.cur.fetchall()
+        # print("Depolarda bulunan toplam Pirinç",kilogram[0][0], "KG dır.")
+        print("-"*50)
