@@ -8,10 +8,10 @@ def girisler(bakliyat_ismi, kg):
     depo_numarasi = int(input(f"{kg} lık {bakliyat_ismi} Ürünü Kac Numaralı Depoya Girecek Secin 1/2: "))
     adet = int(input(f"{depo_numarasi} Numarali Depoya Kac Cuval {bakliyat_ismi} Girisi Yapilacak: "))
     if depo_numarasi == 1 or depo_numarasi == 2:
-        pass
+        db.ekle(bakliyat_ismi, depo_numarasi, adet, kg)
     else:
         print("Lutfen Tanimli Bir Depo Numarası Secin 1 veya 2")
-    db.ekle(bakliyat_ismi, depo_numarasi, adet, kg)
+
     print("Tebrikler", depo_numarasi, " Numarali Depoya", adet, " Cuval", kg, " KG'lık", bakliyat_ismi,
           " Girisi Yapilmistir.")
 
