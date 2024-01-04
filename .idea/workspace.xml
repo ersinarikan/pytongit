@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1013a9b-a1f8-4dde-ab6f-ff1bbb97cfd5" name="Changes" comment="y3">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_01_2024_21_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_01_2024_21_25__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hafta8/toptanciSQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta8/toptanciSQL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hafta8/toptancisqlfonk.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta8/toptancisqlfonk.py" afterDir="false" />
@@ -303,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703765309575</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="y3">
+      <option name="closed" value="true" />
+      <created>1704354387401</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704354387401</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,4 +1,4 @@
-ffrom hafta8 import toptancisqlfonk
+from hafta8 import toptancisqlfonk
 
 db = toptancisqlfonk.sql()
 db.create()
@@ -27,7 +27,7 @@ def cikislar(bakliyat_ismi, kg):
     print("Cuval sayisi", kutu1[0])
     print("Depo Numarasi", depo_numarasi)
     print("KG", kg)
-    if kutu1[0] < adet or kutu1 == "None" :
+    if kutu1[0] < adet or kutu1 == "None":
         print(depo_numarasi, "Numaralı depoda yeteri kadar ürün yok")
     else:
         db.ekle(bakliyat_ismi, depo_numarasi, -adet, kg)
