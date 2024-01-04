@@ -18,6 +18,12 @@ class sql:
                          (bakliyat_ismi, depo_numarasi, adet, kg))
         self.conn.commit()
 
+    def kontrol(self, bakliyat_ismi, depo_numarasi, kg):
+        print(bakliyat_ismi, depo_numarasi, kg)
+        self.cur.execute("SELECT SUM(adet) FROM depo where bakliyat_ismi  =? AND depo_numarasi = ? AND kg = ?",(bakliyat_ismi, depo_numarasi, kg))
+        kutu1 = self.cur.fetchall()
+        return kutu1
+
     def rapor1(self):
 
         self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Mercimek",))
@@ -41,6 +47,7 @@ class sql:
         adet=self.cur.fetchall()
         print("-" * 50)
         print("1 Numaralı Depoda Mevcut ", adet[0][0], " Kutu Mercimek Toplam",kilogram[0][0], "KG dır.")
+
         # self.cur.execute("SELECT SUM(kg) FROM depo where bakliyat_ismi  =? ", ("Nohut",))
         # kilogram = self.cur.fetchall()
         # print("Depolarda bulunan toplam Nohut",kilogram[0][0], "KG dır.")
@@ -51,3 +58,5 @@ class sql:
         # kilogram = self.cur.fetchall()
         # print("Depolarda bulunan toplam Pirinç",kilogram[0][0], "KG dır.")
         print("-"*50)
+
+
