@@ -134,7 +134,6 @@ while True:
                 kg = -10
                 depo_numarasi = int(input("Depo Numarasını giriniz 1/2: "))
                 adet = int(input("Kaç Adet : "))
-
                 db.ekle(bakliyat_ismi, depo_numarasi, adet, kg)
             elif giriskgM == 2:
                 bakliyat_ismi = "Mercimek"
