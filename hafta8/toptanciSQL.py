@@ -6,23 +6,21 @@ db.create()
 
 def girisler(bakliyat_ismi, kg):
     depo_numarasi = int(input(f"{kg} lık {bakliyat_ismi} Ürünü Kac Numaralı Depoya Girecek Secin 1/2: "))
-    adet = int(input(f"{depo_numarasi} Numarali Depoya Kac Cuval {bakliyat_ismi} Girisi Yapilacak: "))
     if depo_numarasi == 1 or depo_numarasi == 2:
+        adet = int(input(f"{depo_numarasi} Numarali Depoya Kac Cuval {bakliyat_ismi} Girisi Yapilacak: "))
         db.ekle(bakliyat_ismi, depo_numarasi, adet, kg)
+        print("Tebrikler", depo_numarasi, " Numarali Depoya", adet, " Cuval", kg, " KG'lık", bakliyat_ismi,
+              " Girisi Yapilmistir.")
     else:
         print("Lutfen Tanimli Bir Depo Numarası Secin 1 veya 2")
-
-    print("Tebrikler", depo_numarasi, " Numarali Depoya", adet, " Cuval", kg, " KG'lık", bakliyat_ismi,
-          " Girisi Yapilmistir.")
-
 
 def cikislar(bakliyat_ismi, kg):
     depo_numarasi = int(input(f"{-kg} lık {bakliyat_ismi} Ürünü Kac Numaralı Depodan Cikacak Secin 1/2: "))
     adet = int(input(f"{depo_numarasi} Numarali Depoda Kac Cuval {bakliyat_ismi} Cikis Yapilacak: "))
     if depo_numarasi == 1 or depo_numarasi == 2:
         kutu1 = db.kontrol(bakliyat_ismi, depo_numarasi, -kg)
-
-        if kutu1[0][0] < adet or kutu1 == "None":
+        print("kutu1 değeri", kutu1)
+        if kutu1 < adet:
             print(depo_numarasi, "Numaralı depoda yeteri kadar ürün yok")
         else:
             db.ekle(bakliyat_ismi, depo_numarasi, -adet, kg)
