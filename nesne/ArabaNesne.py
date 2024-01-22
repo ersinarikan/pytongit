@@ -96,13 +96,38 @@ def istatistikGoster():
     print(f"Aracların Toplam Ederi: {ate} ")
     print(f"Aracların Ortalama Ederi: {ate/len(arabalar)} ")
 
+
+def kayitSilme():
+    kayitSilinecekSase = int(input("Kayit Silinecek Sase numarasini Giriniz: "))
+    found = False
+    for Opsiyonlar in arabalar:
+        if kayitSilinecekSase == Opsiyonlar.saseNo:
+            print("Silinen Kayıt Bilgileri:")
+            print("-" * 75)
+            print("Markasi : ", Opsiyonlar.marka)
+            print("Modeli : ", Opsiyonlar.model)
+            print("Rengi : ", Opsiyonlar.renk)
+            print("Uretim Yılı : ", Opsiyonlar.uretimYili)
+            print("Kullanım Amaci : ", Opsiyonlar.kullanimAmaci)
+            print("Fiyati : ", Opsiyonlar.fiyati)
+            print("-" * 75)
+
+            arabalar.remove(Opsiyonlar)
+            found = True
+            print("Kayıt başarıyla silindi.")
+            break
+    if not found:
+        print("Belirtilen şase numarasına sahip araç bulunamadı.")
+
+
 while True:
     print("""
     1. Kayit Girişi
     2. Kayitlari Listele
     3. Kayit Duzelt
-    4. Istatistikleri Goster
-    5. Cikis""")
+    4. Kayit Silme
+    5. Istatistikleri Goster
+    6. Cikis""")
     secim = int(input("Secimizi Yapınız"))
     if secim == 1:
         kayitGirisi()
@@ -111,8 +136,10 @@ while True:
     elif secim == 3:
         kayitDuzelt()
     elif secim == 4:
-        istatistikGoster()
+        kayitSilme()
     elif secim == 5:
+        istatistikGoster()
+    elif secim == 6:
         exit(0)
     else:
         print("Yanlış Seçim Yaptınız")
