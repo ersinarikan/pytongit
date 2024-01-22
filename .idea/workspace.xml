@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1013a9b-a1f8-4dde-ab6f-ff1bbb97cfd5" name="Changes" comment="y4">
+    <list default="true" id="d1013a9b-a1f8-4dde-ab6f-ff1bbb97cfd5" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/nesne/ArabaNesne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nesne/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_01_2024_21_25_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_01_2024_21_25__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_01_2024_10_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_01_2024_10_39__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hafta8/Toptanci.db" beforeDir="false" afterPath="$PROJECT_DIR$/hafta8/Toptanci.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hafta8/toptanciSQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta8/toptanciSQL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hafta8/toptancisqlfonk.py" beforeDir="false" afterPath="$PROJECT_DIR$/hafta8/toptancisqlfonk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +38,13 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="496e9f10-460e-4b81-891f-c1dbbf95b710" />
-        <option name="url" value="https://github.com/ersinarikan/pytongit/" />
+        <option name="accountId" value="9deef15e-96ab-4d8c-843a-5ab67657a414" />
+        <option name="url" value="https://github.com/ersinarikan/pytongit.git" />
       </UrlAndAccount>
     </option>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -54,30 +57,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.BasariNot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kutuphane.executor&quot;: &quot;Run&quot;,
-    &quot;Python.metot1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sqltptndeneme.executor&quot;: &quot;Run&quot;,
-    &quot;Python.toptanci.executor&quot;: &quot;Run&quot;,
-    &quot;Python.toptanciSQL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.toptancisqlfonk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tptn.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/T007195/PycharmProjects/pytongit/hafta1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.ArabaNesne.executor": "Run",
+    "Python.kutuphane.executor": "Run",
+    "Python.toptanciSQL.executor": "Run",
+    "Python.toptancisqlfonk.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowCommit.ShowToolbar": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/TRS/Desktop/pytongit/pytongit/hafta4",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\T007195\PycharmProjects\pytongit\hafta1" />
-      <recent name="C:\Users\T007195\PycharmProjects\pytongit\hafta2" />
-      <recent name="C:\Users\T007195\PycharmProjects\pytongit\hafta3" />
-      <recent name="C:\Users\T007195\PycharmProjects\pytongit\hafta4" />
-      <recent name="C:\Users\T007195\PycharmProjects\pytongit\hafta7" />
+      <recent name="C:\Users\TRS\Desktop\pytongit\pytongit\hafta4" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -85,8 +84,8 @@
       <command value="konusmaKullanimi=0" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.toptanciSQL">
-    <configuration name="sqltptndeneme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ArabaNesne">
+    <configuration name="ArabaNesne" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pytongit" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nesne" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta8/sqltptndeneme.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nesne/ArabaNesne.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,20 +107,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="toptanci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kutuphane" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pytongit" />
       <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="C:\Users\T007195\AppData\Local\Programs\Python\Python312\python.exe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta7/toptanci.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta6/kutuphane.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ogrencimetot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pytongit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta5/ogrencimetot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,42 +195,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tptn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pytongit" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hafta8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hafta8/tptn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ArabaNesne" />
         <item itemvalue="Python.toptanciSQL" />
         <item itemvalue="Python.toptancisqlfonk" />
-        <item itemvalue="Python.sqltptndeneme" />
-        <item itemvalue="Python.tptn" />
-        <item itemvalue="Python.toptanci" />
+        <item itemvalue="Python.kutuphane" />
+        <item itemvalue="Python.ogrencimetot" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
       </set>
     </attachedChunks>
   </component>
@@ -278,79 +277,39 @@
       <option name="project" value="LOCAL" />
       <updated>1699303253259</updated>
     </task>
-    <task id="LOCAL-00008" summary="y3">
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
-      <created>1703521615952</created>
+      <created>1702578855116</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1703521615952</updated>
+      <updated>1702578855116</updated>
     </task>
-    <task id="LOCAL-00009" summary="y3">
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
-      <created>1703691812684</created>
+      <created>1702578861770</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1703691812684</updated>
+      <updated>1702578861770</updated>
     </task>
-    <task id="LOCAL-00010" summary="y3">
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
-      <created>1703765309575</created>
+      <created>1702578869761</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1703765309575</updated>
+      <updated>1702578869761</updated>
     </task>
-    <task id="LOCAL-00011" summary="y3">
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
-      <created>1704354387401</created>
+      <created>1704328277423</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1704354387401</updated>
+      <updated>1704328277423</updated>
     </task>
-    <task id="LOCAL-00012" summary="y4">
-      <option name="closed" value="true" />
-      <created>1704373571213</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1704373571213</updated>
-    </task>
-    <task id="LOCAL-00013" summary="y4">
-      <option name="closed" value="true" />
-      <created>1704374170655</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1704374170655</updated>
-    </task>
-    <task id="LOCAL-00014" summary="y4">
-      <option name="closed" value="true" />
-      <created>1704379139344</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1704379139344</updated>
-    </task>
-    <task id="LOCAL-00015" summary="y4">
-      <option name="closed" value="true" />
-      <created>1704379821089</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1704379821089</updated>
-    </task>
-    <task id="LOCAL-00016" summary="y4">
-      <option name="closed" value="true" />
-      <created>1704710733372</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1704710733372</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,8 +327,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="y" />
     <MESSAGE value="y2" />
+    <MESSAGE value="y8" />
     <MESSAGE value="y3" />
-    <MESSAGE value="y4" />
-    <option name="LAST_COMMIT_MESSAGE" value="y4" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>
